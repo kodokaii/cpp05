@@ -6,7 +6,7 @@
 /*   By: nlaerema <nlaerema@student.42lehavre.fr>	+#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 10:58:17 by nlaerema          #+#    #+#             */
-/*   Updated: 2024/03/20 23:13:08 by nlaerema         ###   ########.fr       */
+/*   Updated: 2024/03/21 10:58:13 by nlaerema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,7 +96,6 @@ int					Bureaucrat::getGrade(void) const
 
 Bureaucrat	&Bureaucrat::operator=(Bureaucrat const &other)
 {
-	this->name = other.name;
 	this->grade = other.grade;
 	return (*this);
 }

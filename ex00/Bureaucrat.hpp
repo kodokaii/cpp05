@@ -6,7 +6,7 @@
 /*   By: nlaerema <nlaerema@student.42lehavre.fr>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 10:58:17 by nlaerema          #+#    #+#             */
-/*   Updated: 2024/03/20 15:17:12 by nlaerema         ###   ########.fr       */
+/*   Updated: 2024/03/21 10:57:28 by nlaerema         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,8 @@ class Bureaucrat
 	};
 
 	protected:
-		std::string	name;
-		int			grade;
+		std::string	const	name;
+		int					grade;
 
 	public:
 							Bureaucrat(std::string name = "unnamed", int grade = MIN_GRADE);
